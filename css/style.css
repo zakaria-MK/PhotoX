@@ -11,7 +11,7 @@ header {
 .nav-menu {
   background: linear-gradient(rgba(0, 0, 0, .4) , rgba(0,0,0, 0.6));
   padding: 30px ;
-  transition: all .5s;
+  transition: all .6s;
 }
 
 .menu-item {
@@ -46,8 +46,12 @@ header {
   background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .8));
 }
 
+.nav-active {
+  color: #b6a4c7;
+}
+
 .menu-item:hover {
-  color: #c69eeb;
+  color:#b6a4c7;
 }
 
 .banner {
@@ -75,9 +79,58 @@ header {
     transform: translateX(-100px);
     opacity: 0;
   }
-
+  
   100% {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.mission {
+  background: #222222;
+}
+
+hr {
+  width: 160px;
+  height: 3px;
+  background: white;
+  margin: 10px 0;
+}
+            
+.fromleft {
+  animation-name: fromleft;
+  animation-duration: 3s;
+}
+
+.fromright {
+  animation-name: fromright;
+  animation-duration: 3s;
+}
+
+@keyframes fromleft {
+  0% {
+    transform: translate(-140px);
+    opacity:0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fromright {
+  0% {
+    transform: translate(70px);
+    opacity:0;
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
+
+.coll {
+  background: #676869;
 }
