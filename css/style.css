@@ -178,9 +178,6 @@ hr {
   color: #a990c0;
 }
 
-.carousel-inner img {
-}
-
 .card-1 ,.card-2 ,.card-3 {
   background: linear-gradient(rgba(0 ,0 ,0, .7) , rgba(0, 0, 0, .8)), 
               url(../img/pricing.jpg) no-repeat center/cover;
@@ -321,4 +318,25 @@ hr {
     width: 80%;
     margin: auto;
   }
+}
+
+.link-list {
+  font-size: 13px;
+  color: #eee;
+  transition: all .2s;
+}
+
+.link-list:hover {
+  color: #da5322;
+  text-decoration: none;
+}
+
+.email {
+  color: #6464eb;
+
+}
+
+.line hr {
+  width: 100%;
+  height: 0.3px
 }
