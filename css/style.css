@@ -207,17 +207,17 @@ hr {
 
 .movefromLeft {
   animation-name: movefromLeft;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .movefromBottom {
   animation-name: movefromBottom;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 .movefromRight {
   animation-name: movefromRight;
-  animation-duration: 3s;
+  animation-duration: 1s;
 }
 
 
